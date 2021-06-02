@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/responsive.css">
+<link rel="stylesheet" href="./css/gallery-pro.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<title>gallery</title>
+</head>
+<body>
+    <header id="header" class="clearfix">
+        <div class="logo">
+            <img src="./img/img-common/logo.png" alt="로고">
+        </div>
+        <div class="gnb">
+            <div class="gnb-item">
+                <a href="#">home</a>
+            </div><div class="gnb-item">
+                <a href="#">event</a>
+            </div><div class="gnb-item">
+                <a href="#">service</a>
+            </div><div class="gnb-item">
+                <a href="#">gallery</a>
+            </div><div class="gnb-item">
+                <a href="#">contact</a>
+            </div><div class="gnb-item">
+                <a href="#">booking</a>
+            </div>
+        </div>
+        
+        <div class="btn-toggle" onclick="handleToggle()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <script>
+        function handleToggle() {
+            var gnb = document.querySelector('.gnb');
+            gnb.classList.toggle('active');
+        }
+    </script>
+    <section class="aside">
+        <div class="sns">
+            <a href="https://www.facebook.com/florecerstudio">
+                <i class="fab fa-facebook-f">
+                </i>
+            </a>
+            <a href="https://www.instagram.com/florecer_studio/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://blog.naver.com/florecer_studio">
+                <i class="fab fa-blogger"></i>
+            </a>
+        </div>
+    </section>
+    <!-- gallery -->
+<main>
+    <div class="inner">
+        <h1>gallery</h1>
+        <div class="sub-menu">
+            <ul>
+                <li><a href="./index.html">증명</a></li>
+                <li><a href="./gallery-pro.html">프로필</a></li>
+                <li><a href="#">컨셉</a></li>
+                <li><a href="#">가족</a></li>
+                <li><a href="#">펫포토</a></li>
+            </ul>
+        </div>
+        <div class="l-grid">
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/a1.jpg" alt="1열 1행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/a2.jpg" alt="1열 2행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/b1.jpg" alt="2열 1행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/b2.jpg" alt="2열 2행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/c1.jpg" alt="3열 1행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/c2.jpg" alt="3열 2행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/d1.jpg" alt="4열 1행">
+                </div>
+            </div>
+            <div class="l-grid-item l-grid-6-12 l-grid-tablet-12-12 l-grid-mobile-12-12">
+                <div class="cover">
+                    <img src="./img/img-pro/d2.jpg" alt="4열 1행">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
