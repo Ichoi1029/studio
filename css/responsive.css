@@ -1,7 +1,37 @@
 @charset "utf-8";
-
+/* pc */
+.gnb-toggle-btn{
+    display: none;
+}
+.gallery{
+    flex-direction: row;
+}
+/* mobile */
 @media (max-width: 768px){
-    .inner ul li{
-        font-size: 0.7rem;
+    .gnb{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background: var(--thertiary-color);
+        display: none;
     }
+    .gnb-item{
+        width: 100%;
+        text-align: center;
+        background: var(--primary-color);
+        padding: 4px;
+        display: none;
+    }
+    .gnb-toggle-btn{
+        display: block;
+    }
+    .gnb.active li{
+        display: block;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
