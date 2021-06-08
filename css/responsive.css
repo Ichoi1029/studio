@@ -33,5 +33,7 @@
         flex-direction: column;
         text-align: center;
     }
-    
+    footer p{
+        font-size: 10px;
+    }
 }
