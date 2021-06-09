@@ -7,6 +7,8 @@
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -63,18 +65,31 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             </div>
         </section>
         <main>
-            <section class="slider">
-                <div class="slides-container">
-                    <div class="banner">
-                        <ul class="slide">
-                            <li><a href=""><img src="./img/main-banner/highteen.jpg" alt=""></a></li>
-                            <li><a href=""><img src="./img/main-banner/color-profile-banner.jpg" alt=""></a></li>
-                            <li><a href=""><img src="./img/main-banner/dreaming-banner.jpg" alt=""></a></li>
-                            <li><a href=""><img src="./img/main-banner/pet-banner.jpg" alt=""></a></li>
-                        </ul>
+            <section class="slider-container">
+                <input type="radio" name="tab" id="tab1" checked>
+                <input type="radio" name="tab" id="tab2">
+                <input type="radio" name="tab" id="tab3">
+                <input type="radio" name="tab" id="tab4">
+    
+                <div class="slider-view">
+                <div class="slider-list">
+                    <div class="slider-item slider">
+                    </div>
+                    <div class="slider-item slider">
+                    </div>
+                    <div class="slider-item slider">
+                    </div>
+                    <div class="slider-item slider">
                     </div>
                 </div>
-
+                <div class="tab-btn-box">
+                    <label for="tab1"></label>
+                    <label for="tab2"></label>
+                    <label for="tab3"></label>
+                    <label for="tab4"></label>
+                </div>
+                <h1>what's your color?</h1>
+                <a class="event-link" href="#">예약하기</a>
             </section>
             <div class="inner">
                 <h1>EVENT</h1>
