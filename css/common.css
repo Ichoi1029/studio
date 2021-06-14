@@ -76,16 +76,6 @@ main h1{
     display: inline-flex;
     padding: 10px;
 }
-.gallery{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    text-align: center;
-}
-.gallery img{
-    width: 400px;
-    padding: 1rem;
-}
 footer{
     font-size:12px;
     font-weight: 700;

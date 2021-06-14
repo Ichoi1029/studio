@@ -3,3 +3,13 @@
 @import url(../css/responsive.css);
 @import url(../css/common.css);
 
+.gallery{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.gallery img{
+    width: 400px;
+    padding: 1rem;
+}
