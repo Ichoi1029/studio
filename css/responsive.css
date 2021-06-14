@@ -28,33 +28,33 @@
     .gnb.active li{
         display: block;
     }
+    .slider-container h1{
+        font-size: 2rem;
+    }
+    
+    footer p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 480px){
     .gallery{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .slider-container h1{
-        font-size: 2rem;
-    }
     .event-item{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
     }
     .about{
-        display: flex;
         flex-direction: column;
     }
-    .main-img{
-        background: url(../img/service-page/main-img.jpg) no-repeat center/cover;
-        max-width: 100%;
-        height: 300px;
+    .about p{
+        font-size: 12px;
     }
-    .text-box{
-        padding-top: 2rem;
-        max-width: 100%;
-        font-size: 15px;
-    }
-    footer p{
-        font-size: 10px;
+    .process{
+        flex-direction: column;
     }
 }

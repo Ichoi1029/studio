@@ -1,4 +1,8 @@
 @charset "utf-8";
+
+h1{
+    font-size: var(--font-large);
+}
 /* header */
 .header{
     background: var(--primary-color);
@@ -37,7 +41,7 @@
 .gnb-toggle-btn{
     position: absolute;
     right: 32px;
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     top: 10px;
 }
