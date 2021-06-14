@@ -7,51 +7,13 @@ $(document).ready(function(){
             autoplay: true,
             autoplaySpeed: 2000,
     });
-    
-    // custom slider
-    $('.custom__slider').slick({
-            dots:true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-    });
-
     // responsive
     $('.responsive__slider').slick({
             dots: true,
             infinite: true,
-            // autoplay: true,
-            // autoplaySpeed: 2000,
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 3,
-<<<<<<< HEAD
-=======
-            responsive: [
-                {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-                },
-                {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-                },
-                {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-                }
-            ]
->>>>>>> 43182c29dde0f17c52950b42bd3cae7d69829100
     });
 
 });

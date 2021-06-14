@@ -7,13 +7,8 @@
     margin-top: -4rem;
     padding-left: 1rem;
 }
-<<<<<<< HEAD
-
 .main__banner img {
     padding-top: 5rem;
-=======
-.main__banner img {
->>>>>>> 43182c29dde0f17c52950b42bd3cae7d69829100
     width: 100%;
 }
 /* arrow */
@@ -22,16 +17,11 @@
 {
     position: absolute;
     top: 50%;
-<<<<<<< HEAD
     z-index: 10;
-=======
-    z-index: 100;
->>>>>>> 43182c29dde0f17c52950b42bd3cae7d69829100
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
     font-size: 0;
-<<<<<<< HEAD
     background: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
@@ -78,54 +68,6 @@
     font-size: 0;
     border: none;
 } 
-=======
-    border: none;
-    background: rgba(0,0,0,.6);
-    cursor: pointer;
-}
-.slick-prev {
-    left: 0;
-}
-.slick-next {
-    right: 0;
-}
-.slick-prev:after,
-.slick-next:after{
-    font-size: 1.2rem;
-    color: #fff;
-}
-.slick-prev:after,
-.slick-next:after{
-    font-family: unicons-line;
-}
-.slick-prev:after {
-    content: '\ec49';
-}
-.slick-next:after {
-    content: '\eb9f';
-}
-
-/* progress */
-.slick-dots {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: -2rem;
-    cursor: pointer;
-}
-/* active된 dot */
-.slick-dots li.slick-active button {
-    background: #fff;
-}
-/* 나머지 dot */
-.slick-dots li button {
-    background: #666;
-    width: 100px;
-    height: 5px;
-    font-size: 0;
-    border: none;
-}
->>>>>>> 43182c29dde0f17c52950b42bd3cae7d69829100
 .event-item{
     margin-top: -2rem;
     display: flex;
