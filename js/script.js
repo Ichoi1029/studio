@@ -12,7 +12,7 @@ $(document).ready(function(){
                 dots: true,
                 infinite: true,
                 speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 1,
+                slidesToScroll: 1,
         });
 });

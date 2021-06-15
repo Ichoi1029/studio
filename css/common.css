@@ -14,8 +14,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'DungGeunMo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -41,9 +41,9 @@ h1{
 }
 
 h2{
-    font-weight: 800;
-    font-size: 2rem;
-    font-family: 'DungGeunMo';
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'InkLipquid';
 }
 p{
     font-family: 'NEXON Lv1 Gothic OTF';

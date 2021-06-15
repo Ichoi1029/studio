@@ -10,6 +10,9 @@
     height: 500px;
     background: url(../img/service-page/main-img.jpg) no-repeat center/cover;
 }
+.about-container{
+    text-align: center;
+}
 .about-text{
     display: inline-block;
     width: 40%;
