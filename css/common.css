@@ -1,9 +1,56 @@
 @charset "utf-8";
 
+/* ========================= font ========================= */
+@font-face {
+    font-family: 'Bazzi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ========================= common ========================= */
+
+:root{
+    /* color */
+    --primary-color:rgb(247, 223, 253); 
+    --primary-bg:white;
+    --secondary-color:#111;
+    --thertiary-color:rgb(249, 155, 226);
+    --quaternary-color:#fff;
+    /* font size */
+    --font-large:3rem;
+    --font-medium:1.5rem;
+    --font-small:1rem;
+    /* font-weight */
+}
+
 h1{
     font-size: var(--font-large);
+    font-family: 'Anton', sans-serif;
 }
-/* header */
+
+h2{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'DungGeunMo';
+}
+p{
+    font-family: 'NEXON Lv1 Gothic OTF';
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* ========================= header ========================= */
 .header{
     background: var(--primary-color);
     z-index: 10;
@@ -46,7 +93,7 @@ h1{
     top: 10px;
 }
 
-/* aside */
+/* ========================= aside ========================= */
 .sns{
     position: fixed;
     top: 200px;
@@ -75,6 +122,8 @@ main h1{
     display: inline-flex;
     padding: 10px;
 }
+
+/* ========================= footer ========================= */
 footer{
     font-size:12px;
     font-weight: 700;

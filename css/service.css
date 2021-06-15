@@ -1,0 +1,44 @@
+@charset "utf-8";
+@import url(../css/reset.css);
+@import url(../css/responsive.css);
+@import url(../css/common.css);
+main{
+    text-align: center;
+}
+.flower{
+    padding-top:100px;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden; 
+}
+.flower img{
+    width: 100%;
+}
+
+.second-log img{
+    width: 400px;
+}
+.service-container{
+    text-align: center;
+    padding: 3rem;
+}
+.service-container .photo{
+    padding: 1rem;
+}
+.service-section {
+    padding-top: 2rem;
+}
+.service-container .photo p{
+    line-height: 2rem;
+}
+.service-container .photo span{
+    background: rgba(249, 155, 226, .6);
+    padding: 2px;
+}
+.service-container .photo img{
+    width: 300px;
+    height: 350px;
+    background: chartreuse;
+    margin: .1rem;
+}
+
