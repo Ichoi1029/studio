@@ -6,10 +6,9 @@
 .gallery{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
 }
 .gallery img{
     width: 400px;
-    padding: 1rem;
+    padding: .5rem;
 }
