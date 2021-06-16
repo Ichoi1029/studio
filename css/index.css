@@ -87,3 +87,96 @@
     height: 400px;
     background: crimson;
 }
+/* ====================================== poster page ====================================== */
+.poster-container{
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    margin-top: -10px;
+}
+.poster-container .left{
+    background: url(../img/event-banner/profile-ad.jpg) no-repeat center/cover;
+}
+.poster-container .center{
+    background: url(../img/event-banner/kid-ad.jpg) no-repeat center/cover;
+}
+.poster-container .right{
+    background: url(../img/event-banner/pet-ad.jpg) no-repeat center/cover;
+}
+.poster-container .left,
+.poster-container .right,
+.poster-container .center {
+    display: table-cell;
+    position: relative;
+    width: 33.3333%;
+    height: 100vh;
+    transition: all 0.7s;
+}
+.poster-container .left:hover,
+.poster-container .right:hover,
+.poster-container .center:hover{
+    width: 40%;
+}
+.poster-container .left a,
+.poster-container .right a,
+.poster-container .center a{
+    position: absolute;
+    bottom:100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding-top: 12px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.poster-container .left a:before,
+.poster-container .right a:before,
+.poster-container .center a:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-top: -30px;
+    transform: translate(-50%);
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    background:var(--thertiary-color);
+    border-radius: 30px;
+    transition: all .5s;  
+}
+.poster-container .left a:hover:before,
+.poster-container .right a:hover:before,
+.poster-container .center a:hover:before {
+    width: 100%;
+    left: 200%;
+}
+.poster-container .left a:hover,
+.poster-container .right a:hover,
+.poster-container .center a:hover{
+    color: white;
+    background:var(--thertiary-color);
+}
+
+@media (max-width: 480px){
+.poster-container .left,
+.poster-container .right,
+.poster-container .center,
+.poster-container .left:hover,
+.poster-container .right:hover,
+.poster-container .center:hover{
+    display: block;
+    width: 100%;
+    height: 400px;
+    overflow:hidden;
+}
+
+
+
