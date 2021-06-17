@@ -53,6 +53,9 @@
         display: block;
         margin-top: -10px;
     }
+    .about-drawing h1{
+        animation: none;
+    }
 }
 /* ========================= mobile page ========================= */
 @media (max-width: 480px){
@@ -91,5 +94,8 @@
     }
     .service-intro p {
         font-size: 15px;
+    }
+    .about-drawing h1{
+        font-size: 30px !important;
     }
 }

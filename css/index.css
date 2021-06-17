@@ -166,16 +166,17 @@
 }
 
 @media (max-width: 480px){
-.poster-container .left,
-.poster-container .right,
-.poster-container .center,
-.poster-container .left:hover,
-.poster-container .right:hover,
-.poster-container .center:hover{
-    display: block;
-    width: 100%;
-    height: 400px;
-    overflow:hidden;
+    .poster-container .left,
+    .poster-container .right,
+    .poster-container .center,
+    .poster-container .left:hover,
+    .poster-container .right:hover,
+    .poster-container .center:hover{
+        display: block;
+        width: 100%;
+        height: 400px;
+        overflow:hidden;
+    }
 }
 
 
