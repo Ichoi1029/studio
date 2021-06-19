@@ -43,7 +43,7 @@ main h1 {
     background: red;
 }
 .service-container .inform{
-    font-size: 2px;
+    font-size: 15px;
     color: red;
     display: none;
 }

@@ -71,8 +71,6 @@ var $btnClose = $('.close__modal');
         if(e.target == e.currentTarget){
             $(this).fadeOut();
         }
-    })
-
-        
+    })      
 })
 
