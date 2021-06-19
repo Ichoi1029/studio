@@ -63,13 +63,13 @@
 }
 /* active된 dot */
 .slick-dots li.slick-active button {
-    background:var(--thertiary-color);
+    background:purple;
 }
 /* 나머지 dot */
 .slick-dots li button {
-    background: white;
-    width: 20px;
-    height: 20px;
+    background: var(--thertiary-color);
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     margin: 10px;
     font-size: 0;
@@ -79,11 +79,11 @@
 /* ========================= slider ========================= */
 .slider__content img{
     width: 100%;
+    height: auto;
     margin-top: -10px;
 
 }
-/* ====================================== poster page
-====================================== */
+/* ====================================== poster page ====================================== */
 .poster-container{
     width: 100%;
     overflow: hidden;
@@ -162,7 +162,7 @@
 }
 /* ========================= recomend slider ========================= */
 
-.recommend .title{
-    width: 500px;
-    padding-left: 2rem;
+.pamphlet{
+    text-align: center;
+
 }

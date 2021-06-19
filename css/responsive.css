@@ -90,4 +90,10 @@
         font-size: 30px !important;
     }
     /* service page */
+    .modal{
+        visibility: visible;
+    }
+    .service-container .inform{
+        display: block;
+    }
 }

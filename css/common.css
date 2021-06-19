@@ -130,14 +130,12 @@ main h1{
 .call-button{
     position: fixed;
     bottom: 60px;
-    left: 50px;
-    width: 80px;
-    height: 30px;
+    left: 20px;
+    font-size: 4rem;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     border-radius: 10px;
-    background: rgb(68, 68, 68);
-    color: white;
+    color: rgb(143, 143, 143);
     z-index: 997;
 }
 
