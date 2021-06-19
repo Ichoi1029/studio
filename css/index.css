@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url(../css/reset.css);
-@import url(../css/responsive.css);
+/* @import url(../css/responsive.css); */
 @import url(../css/common.css);
 
 .inner{
@@ -68,10 +68,12 @@
 /* 나머지 dot */
 .slick-dots li button {
     background: white;
-    width: 40px;
-    height: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
     font-size: 0;
-    border: none;
+    margin-top: -15px;
 } 
 
 /* ========================= slider ========================= */
@@ -80,12 +82,13 @@
     margin-top: -10px;
 
 }
-/* ====================================== poster page ====================================== */
+/* ====================================== poster page
+====================================== */
 .poster-container{
     width: 100%;
     overflow: hidden;
     display: table;
-    margin-top: -10px;
+    margin-top: -22px;
 }
 .poster-container .left{
     background: url(../img/event-banner/profile-ad.jpg) no-repeat center/cover;
@@ -157,16 +160,9 @@
     color: white;
     background:var(--thertiary-color);
 }
-@media (max-width: 480px){
-    .poster-container .left,
-    .poster-container .right,
-    .poster-container .center,
-    .poster-container .left:hover,
-    .poster-container .right:hover,
-    .poster-container .center:hover{
-        display: block;
-        width: 100%;
-        height: 400px;
-        overflow:hidden;
-    }
+/* ========================= recomend slider ========================= */
+
+.recommend .title{
+    width: 500px;
+    padding-left: 2rem;
 }

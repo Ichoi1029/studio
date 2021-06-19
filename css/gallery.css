@@ -14,3 +14,9 @@
     width: 400px;
     padding: .5rem;
 }
+.gallery{
+    flex-direction: row;
+}
+.gallery .title{
+    width: 70%;
+}

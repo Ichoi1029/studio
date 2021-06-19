@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-/* ========================= pc ========================= */
-.gnb-toggle-btn{
-    display: none;
-}
-.gallery{
-    flex-direction: row;
-}
 /* ========================= tablet ========================= */
 @media (max-width: 768px){
     
@@ -16,7 +9,6 @@
         flex-direction: column;
         align-items: center;
         background: var(--thertiary-color);
-        display: none;
     }
     .gnb-item{
         width: 100%;
@@ -34,9 +26,14 @@
     .slider-container h1{
         font-size: 2rem;
     }
-    /* footer */
-    footer p{
-        font-size: 10px;
+    .poster-container .left,
+    .poster-container .right,
+    .poster-container .center,
+    .poster-container .left:hover,
+    .poster-container .right:hover,
+    .poster-container .center:hover{
+        height: 400px;
+        overflow:hidden;
     }
     /* service page */
     .second-log{
@@ -49,16 +46,29 @@
     .about-drawing h1{
         animation: none;
     }
+    /* footer */
+    footer p{
+        font-size: 10px;
+    }
 }
 /* ========================= mobile page ========================= */
 @media (max-width: 480px){
+
     /* index page */
-    .event-item{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
+    
+    /* poster */
+    .poster-container .left,
+    .poster-container .right,
+    .poster-container .center,
+    .poster-container .left:hover,
+    .poster-container .right:hover,
+    .poster-container .center:hover{
+        display: block;
+        width: 100%;
+        height: 400px;
+        overflow:hidden;
     }
+
     /* gallery page */
     .gallery{
         display: flex;
