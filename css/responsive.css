@@ -28,7 +28,7 @@
     .gnb-toggle-btn{
         display: block;
     }
-    .gnb.active li{
+    .gnb.active .gnb-item{
         display: block;
     }
     .slider-container h1{
@@ -59,7 +59,6 @@
         justify-content: center;
         margin: 0 auto;
     }
-
     /* gallery page */
     .gallery{
         display: flex;
