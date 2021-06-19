@@ -129,10 +129,10 @@ main h1{
 }
 .call-button{
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    bottom: 40px;
+    left: 50px;
     width: 80px;
-    height: 30px;
+    height: 50px;
     text-align: center;
     line-height: 30px;
     border-radius: 10px;
