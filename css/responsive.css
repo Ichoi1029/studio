@@ -46,13 +46,6 @@
     .second-log img{
         width: 100%;
     }
-    .poster-container .right, .ceter, .left{
-        width: 300px;
-        height: 400px;
-        /* overflow: hidden; */
-        display: block;
-        margin-top: -10px;
-    }
     .about-drawing h1{
         animation: none;
     }
@@ -84,18 +77,8 @@
     .process{
         flex-direction: column;
     }
-    /* service page */
-    .service-container .photo img{
-        width: 300px;
-        height: auto;
-    }
-    .service-container .photo p{
-        font-size: 9px;
-    }
-    .service-intro p {
-        font-size: 15px;
-    }
     .about-drawing h1{
         font-size: 30px !important;
     }
+    /* service page */
 }

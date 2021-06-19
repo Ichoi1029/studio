@@ -42,8 +42,8 @@ h1{
 
 h2{
     font-weight: 700;
-    font-size: 4rem;
-    font-family: 'InkLipquid';
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
 }
 p{
     font-family: 'NEXON Lv1 Gothic OTF';
@@ -68,9 +68,10 @@ p{
     background: var(--primary-color);
 }
 .logo img{
-    width: 150px;
-    height: 70px;
-    opacity: .8;
+    width: 200px;
+    padding-top: 8px;
+    height: auto;
+    opacity: .6;
 }
 .gnb{
     display: flex;

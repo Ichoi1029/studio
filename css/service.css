@@ -5,30 +5,42 @@
 main{
     text-align: center;
 }
+main h1 {
+    padding-top: 150px;
+}
 .second-log img{
     width: 400px;
+    padding-top: 3rem;
 }
 .service-container{
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
 }
 .service-container .photo{
     padding: 1rem;
-}
-.service-section {
     padding-top: 2rem;
 }
-.service-container .photo p{
-    line-height: 2rem;
+.service-container h2{
+    padding-left: 2rem;
 }
-.service-container .photo span{
-    background: rgba(249, 155, 226, .6);
-    padding: 2px;
-}
-.service-container .photo img{
+.service-container .title {
     width: 300px;
-    height: auto;
-    background: chartreuse;
-    margin: .1rem;
+    padding-top: 3rem;
 }
+.service-container .photo{
+    display: flex;
+    justify-content: center;
+}
+.service-container .photo .picture{
+    width: 30%;
+    height: auto;
+    padding: .5rem;
+}
+.service-container.photo.txt{
+    width: 100%;
+    height: auto;
+    /* padding-top: 1rem; */
+    background: red;
+}
+
 

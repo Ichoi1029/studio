@@ -2,7 +2,9 @@
 @import url(../css/reset.css);
 @import url(../css/responsive.css);
 @import url(../css/common.css);
-
+.inner{
+    padding-top: 150px;
+}
 .gallery{
     display: flex;
     width: 100%;
