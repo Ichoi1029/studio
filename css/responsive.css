@@ -43,8 +43,13 @@
     .second-log img{
         width: 100%;
     }
-    .about-drawing h1{
-        animation: none;
+    .poster-container .left,
+    .poster-container .right,
+    .poster-container .center,
+    .poster-container .left:hover,
+    .poster-container .right:hover,
+    .poster-container .center:hover{
+        height: 400px;
     }
     /* footer */
     footer p{
