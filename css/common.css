@@ -58,7 +58,7 @@ p{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 120px;
+    height: 100px;
 }
 .logo{
     display: flex;
@@ -70,12 +70,12 @@ p{
 }
 .logo img{
     width: 150px;
-    padding-top: 8px;
-    height: 80px;
+    height: 50px;
     opacity: .6;
 }
 .gnb{
     display: flex;
+    margin-top: -20px;
     justify-content: center;
     background: white;
     border: 2px solid var(--primary-color);
