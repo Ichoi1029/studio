@@ -58,7 +58,10 @@
 }
 /* ========================= mobile page ========================= */
 @media (max-width: 480px){
-
+    /* common */
+    .phone-button{
+        display: block;
+    }
     /* index page */
     
     /* poster */

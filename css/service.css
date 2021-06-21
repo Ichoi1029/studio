@@ -43,7 +43,7 @@ main h1 {
     background: red;
 }
 .service-container .inform{
-    font-size: 15px;
+    font-size: 20px;
     color: red;
     display: none;
 }
@@ -60,10 +60,13 @@ main h1 {
     padding-bottom: 95px;
 }
 .close__modal{
-   color: violet;
-   position: absolute;
+   color: white;
+   background: var(--thertiary-color);
+   position: fixed;
    top: 150px;
-   left: 50%;
+   left: 15%;
+   padding: 5px;
+   border-radius: 8px;
    transform: translateX(-50%);
    z-index: 6;
    text-align: center;

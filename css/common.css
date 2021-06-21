@@ -139,6 +139,15 @@ main h1{
     color: rgb(143, 143, 143);
     z-index: 997;
 }
+.phone-button{
+    width: 65px;
+    height: 65px;
+    display: none;
+}
+.phone-button:hover{
+    animation: flip;
+    animation-duration: 1s;
+}
 
 /* ========================= footer ========================= */
 footer{
