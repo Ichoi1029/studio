@@ -17,6 +17,12 @@
 .gallery{
     flex-direction: row;
 }
-.gallery .title{
-    width: 70%;
+.inner .title{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.sub-menu li:hover{
+    background: var(--thertiary-color);
+
 }

@@ -2,7 +2,9 @@
 
 /* ========================= tablet ========================= */
 @media (max-width: 768px){
-    
+    .inner{
+        padding: 0;
+    }
     /* header */
     .gnb{
         width: 100%;
