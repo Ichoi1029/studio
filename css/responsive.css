@@ -8,7 +8,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        background: var(--thertiary-color);
+        /* background: var(--thertiary-color); */
     }
     .gnb-item{
         width: 100%;
