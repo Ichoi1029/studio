@@ -53,6 +53,10 @@
     .poster-container .center:hover{
         height: 400px;
     }
+    /* gallery-container */
+    .gallery-container{
+        margin-top: 150px;
+    }
     /* footer */
     footer p{
         font-size: 10px;
@@ -105,9 +109,5 @@
     }
     .service-container .inform{
         display: block;
-    }
-    /* gallery-container */
-    .gallery-container{
-        margin-top: 150px;
     }
 }
