@@ -47,10 +47,7 @@
     }
     .poster-container .left,
     .poster-container .right,
-    .poster-container .center,
-    .poster-container .left:hover,
-    .poster-container .right:hover,
-    .poster-container .center:hover{
+    .poster-container .center{
         height: 400px;
     }
 
@@ -127,7 +124,6 @@
     .service-container .photo .picture{
         width: 100px;
         height: 120px;
-        /* height: auto; */
         padding: .5rem;
     }
     .contact-img-container{
