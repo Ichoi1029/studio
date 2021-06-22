@@ -31,3 +31,73 @@ body{
 .about-container .brand {
     width: 70%;
 }
+.process .title{
+    width: 300px;
+}
+.process li{
+    padding: 3rem;
+}
+.process p {
+    line-height: 40px;
+}
+.process a{
+    display: block;
+    width: 60%;
+    color: white;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+.process .naver{
+    background:#2DB400;
+}
+.process .phone{
+    background: var(--thertiary-color);
+}
+.process li .img{
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    transition-delay: .3s;
+}
+.process .menu {
+    background: url(../img/about/candle.png) no-repeat center/cover;
+}
+.process .menu:hover{
+    background: url(../img/about/menu.png) no-repeat center/cover;
+}
+.process .photo-waiting{
+    background: url(../img/about/waiting.jpg) no-repeat center/cover;
+}
+.process .photo-waiting:hover{
+    background: url(../img/about/photospot.png) no-repeat center/cover;
+}
+.process .photo-game{
+    background: url(../img/about/game.jpg) no-repeat center/cover;
+}
+.process .photo-game:hover{
+    background: url(../img/about/dress.png) no-repeat center/cover;
+}
+.process .photo-dressroom{
+    background: url(../img/about/dressroom-door.jpg) no-repeat center/cover;
+}
+.process .photo-dressroom:hover{
+    background: url(../img/about/dressroom.jpg) no-repeat center/cover;
+}
+.process .photo-stage{
+    background: url(../img/about/stage2.jpg) no-repeat center/cover;
+}
+.process .photo-stage:hover{
+    background: url(../img/about/stage.jpg) no-repeat center/cover;
+}
+.process .photo-photoshop{
+    background: url(../img/about/photoshop2.jpg) no-repeat center/cover;
+}
+.process .photo-photoshop:hover{
+    background: url(../img/about/photoshop1.jpg) no-repeat center/cover;
+}
+.process .photo-canvas{
+    background: url(../img/about/frame2.jpg) no-repeat center/cover;
+}
+.process .photo-canvas:hover{
+    background: url(../img/about/frame.jpg) no-repeat center/cover;
+}

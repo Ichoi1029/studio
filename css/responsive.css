@@ -101,8 +101,15 @@
     .process{
         flex-direction: column;
     }
+    .process p{
+        font-size: 14px;
+        line-height: 20px;
+    }
     .about-drawing h1{
         font-size: 30px !important;
+    }
+    .process li .img{
+        height: 300px;
     }
     /* service page */
     .modal{
