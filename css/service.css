@@ -32,7 +32,8 @@ main h1 {
     justify-content: center;
 }
 .service-container .photo .picture{
-    width: 25%;
+    width: 250px;
+    height: 300px;
     /* height: auto; */
     padding: .5rem;
 }
@@ -46,7 +47,7 @@ main h1 {
     padding: 20px;
 }
 .service-container .inform{
-    font-size: 20px;
+    font-size: 10px;
     color: red;
     display: none;
 }

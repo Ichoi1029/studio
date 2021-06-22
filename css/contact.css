@@ -11,8 +11,9 @@
     padding: 1rem;
 } */
 .inner{
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
+    padding: 1rem;
 }
 .booking button{
     width: 100px;
