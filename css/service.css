@@ -33,12 +33,12 @@ main h1 {
 }
 .service-container .photo .picture{
     width: 25%;
-    height: auto;
+    /* height: auto; */
     padding: .5rem;
 }
 .service-container.photo.txt{
     width: 100%;
-    height: auto;
+    /* height: auto; */
     /* padding-top: 1rem; */
     background: red;
 }
