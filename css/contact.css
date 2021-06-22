@@ -11,8 +11,12 @@
     padding: 1rem;
 } */
 .inner{
-    margin-top: 200px;
     text-align: center;
+}
+.contact-img-container{
+    background: url(../img/contact-location/open.jpg)no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
 }
 .booking button{
     width: 100px;
