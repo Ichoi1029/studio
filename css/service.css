@@ -16,10 +16,6 @@ main h1 {
     text-align: center;
     padding: 1rem;
 }
-.service-container .photo{
-    padding: 1rem;
-    padding-top: 2rem;
-}
 .service-container h2{
     padding-left: 2rem;
 }
@@ -28,24 +24,23 @@ main h1 {
     padding-top: 3rem;
 }
 .service-container .photo{
+    padding: 1rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
 }
 .service-container .photo .picture{
     width: 230px;
     height: 300px;
-    /* height: auto; */
     padding: .5rem;
 }
 .service-container.photo.txt{
     width: 100%;
-    /* height: auto; */
-    /* padding-top: 1rem; */
-    background: red;
+    padding: 10px;
 }
 .service-container .inform{
-    font-size: 10px;
-    color: red;
+    font-size: var(--font-inform);
+    color: var(--color-inform);
     display: none;
 }
 
@@ -54,33 +49,30 @@ main h1 {
     position: absolute;
     top: 60px;
     left: -7px;
-    background: white;
+    background: var(--primary-bg);
     width: 100%;
     padding: 2rem;
     visibility: hidden;
     padding-bottom: 95px;
 }
 .close__modal{
-   color: white;
-   background: var(--thertiary-color);
-   position: fixed;
-   top: 150px;
-   left: 15%;
-   padding: 5px;
-   border-radius: 8px;
-   transform: translateX(-50%);
-   z-index: 6;
-   text-align: center;
+    color: var(--quaternary-color);
+    background: var(--thertiary-color);
+    position: fixed;
+    top: 150px;
+    left: 15%;
+    padding: 5px;
+    border-radius: 8px;
+    transform: translateX(-50%);
+    z-index: 6;
+    text-align: center;
 }
-
 .end{
     position: absolute;
     top: 99%;
     left: 50%;
     z-index: 6;
 }
-
-
 .close__modal img{
     width: 300px;
     margin: 1rem;

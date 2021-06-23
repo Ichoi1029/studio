@@ -1,6 +1,5 @@
 @charset "utf-8";
 @import url(../css/reset.css);
-/* @import url(../css/responsive.css); */
 @import url(../css/common.css);
 
 .inner{
@@ -91,13 +90,13 @@
     margin-top: -22px;
 }
 .poster-container .left{
-    background: url(../img/event-banner/profile-ad.jpg) no-repeat center/cover;
+    background: url(../img/index/profile-ad.jpg) no-repeat center/cover;
 }
 .poster-container .center{
-    background: url(../img/event-banner/kid-ad.jpg) no-repeat center/cover;
+    background: url(../img/index/kid-ad.jpg) no-repeat center/cover;
 }
 .poster-container .right{
-    background: url(../img/event-banner/pet-ad.jpg) no-repeat center/cover;
+    background: url(../img/index/pet-ad.jpg) no-repeat center/cover;
 }
 .poster-container .left,
 .poster-container .right,
@@ -123,11 +122,11 @@
     width: 200px;
     height: 50px;
     border-radius: 10px;
-    border: 1px solid rgb(143, 143, 143);
-    font-size: 1rem;
+    border: 1px solid var(--color-edge);
+    font-size: var(--font-small);
     text-align: center;
-    color: rgb(143, 143, 143);
-    font-weight: 700;
+    color: var(--color-edge);
+    font-weight: var(--font-slightly-heavy);
     padding-top: 12px;
     overflow: hidden;
     transition: all .5s;
@@ -157,7 +156,7 @@
 .poster-container .left a:hover,
 .poster-container .right a:hover,
 .poster-container .center a:hover{
-    color: white;
+    color:var(--quaternary-color);
     background:var(--thertiary-color);
 }
 /* ========================= recomend slider ========================= */

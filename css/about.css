@@ -43,12 +43,12 @@ body{
 .process a{
     display: block;
     width: 60%;
-    color: white;
+    color: var(--quaternary-color);
     padding: 1rem;
     margin: 2rem auto;
 }
 .process .naver{
-    background:#2DB400;
+    background:var(--color-naver);
 }
 .process .phone{
     background: var(--thertiary-color);

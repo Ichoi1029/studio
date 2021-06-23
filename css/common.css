@@ -28,11 +28,20 @@
     --secondary-color:#111;
     --thertiary-color:rgb(249, 155, 226);
     --quaternary-color:#fff;
+    --color-inform:red;
+    --color-edge:rgb(143, 143, 143);
+    --color-naver:#2DB400;
     /* font size */
     --font-large:3rem;
     --font-medium:1.5rem;
     --font-small:1rem;
+    --font-inform:10px;
+    --font-mobile:15px;
+    --font-mobile-title:15px;
     /* font-weight */
+    --font-heavy:900;
+    --font-slightly-heavy:700;
+    --font-light:600;
 }
 
 h1{
