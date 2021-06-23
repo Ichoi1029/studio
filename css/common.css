@@ -86,11 +86,11 @@ p{
     display: flex;
     margin-top: -20px;
     justify-content: center;
-    background: white;
+    background: var(--primary-bg);
     border: 2px solid var(--primary-color);
 }
 .gnb-item{
-    padding:0px 30px;
+    padding:4px 30px;
 }
 .gnb-item:hover {
     background: var(--thertiary-color);

@@ -58,6 +58,7 @@ body{
     height: 400px;
     margin: 0 auto;
     transition-delay: .3s;
+    cursor: pointer;
 }
 .process .menu {
     background: url(../img/about/candle.png) no-repeat center/cover;

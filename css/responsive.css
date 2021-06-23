@@ -37,6 +37,7 @@
         height: 400px;
         overflow:hidden;
     }
+
     /* service page */
     .second-log{
         width: 70%;
@@ -50,7 +51,6 @@
     .poster-container .center{
         height: 400px;
     }
-
     .contact-img-container{
         max-width: 100vw;
         height: 300px;
