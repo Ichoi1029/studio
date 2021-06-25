@@ -73,6 +73,9 @@
         display: block;
     }
     /* index page */
+    .main__banner img{
+        padding-top: 100px;
+    }
     .poster-container .left,
     .poster-container .right,
     .poster-container .center,
