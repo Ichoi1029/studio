@@ -160,9 +160,11 @@
     color:var(--quaternary-color);
     background:var(--thertiary-color);
 }
-/* ========================= recomend slider ========================= */
+/* ========================= pamphlet slider ========================= */
 
 .pamphlet{
     text-align: center;
-
+}
+.pamphlet h1{
+    font-weight: var(--font-heavy);
 }
